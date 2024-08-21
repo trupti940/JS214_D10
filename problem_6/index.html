@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        /* Add some basic styling */
+        #container {
+            margin-top: 20px;
+            background-color: aquamarine;
+        }
+        .todo-item {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+        .pagination button {
+            margin: 0 5px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="fetch-todos">Fetch Todos</button>
+    <div id="container"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
